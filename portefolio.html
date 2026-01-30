@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portefólio | José Gonga</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e293b;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #0f172a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: #1e293b;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      background: #1e293b;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>José Gonga</h1>
+    <p>Estudante | Tecnologia | Sistemas de Informação</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#competencias">Competências</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contactos">Contactos</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="card">
+      <p>Sou um profissional motivado, interessado em tecnologia, sistemas de informação e desenvolvimento de soluções digitais. Tenho experiência académica na elaboração de trabalhos científicos, projetos de sistemas e documentação técnica.</p>
+    </div>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação Académica</h2>
+    <div class="card">
+      <p><strong>Curso:</strong> Gestão de Sistemas Informáticos</p>
+      <p><strong>Instituição:</strong> Instituto Politecnico Industrial de Luanda</p>
+      <p><strong>Período:</strong> 2025–2026</p>
+       <p><strong>Estágiario:</strong> TICNES LDA </p>
+       <p><strong>Periodo:</strong> 2025-2026 </p>
+    </div>
+  </section>
+
+  <section id="competencias">
+    <h2>Competências</h2>
+    <div class="card">
+      <ul>
+        <li>HTML, CSS e JavaScript (básico)</li>
+        <li>Elaboração de trabalhos académicos (APA 7ª edição)</li>
+        <li>Criação de fluxogramas e algoritmos</li>
+        <li>Microsoft Word, Excel e PowerPoint</li>
+        <li>Pensamento lógico e resolução de problemas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="card">
+      <h3>Sistema de Denúncias e Reclamações</h3>
+      <p>Estruturação de um sistema com área de utilizador e administrador, incluindo fluxogramas, requisitos e documentação.</p>
+      <br />
+      <button onclick="mostrarMensagem()">Ver Detalhes</button>
+    </div>
+  </section>
+
+  <section id="contactos">
+    <h2>Contactos</h2>
+    <div class="card">
+      <p><strong>Email:</strong> gongajose326@gmail.com</p>
+      <p><strong>Telefone:</strong> +244 942 295 255</p>
+       <p><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/jose-gonga-9b7483291">José Gonga</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 - José Gonga. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Projeto académico focado em sistemas de gestão de denúncias e reclamações.");
+    }
+  </script>
+
+</body>
+</html>
